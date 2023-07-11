@@ -53,16 +53,16 @@ const HrPrugio = () => {
         <header className="header">
           <div className='wrapper'>
             <h1 className='logo'>
-              <Link className='nav-link' to="/hr-prugio/">
+              <Link className='nav-link' to="/">
                 <span className='hide_clipPath'>푸르지오로고</span>
               </Link>
             </h1>
             <nav className={isOn ? 'on' : ''}>
               <ul>
-                <Link className='nav-link' to="/hr-prugio/Env"><li><h2 onClick={isOn ? addOn : null}>입지{showElement && <br />}환경</h2></li></Link>
-                <Link className='nav-link' to="/hr-prugio/Merchinfo"><li><h2 onClick={isOn ? addOn : null}>상품{showElement && <br />}안내</h2></li></Link>
-                <Link className='nav-link' to="/hr-prugio/Service"><li><h2 onClick={isOn ? addOn : null}>특화{showElement && <br />}서비스</h2></li></Link>
-                <Link className='nav-link' to="/hr-prugio/Club"><li><h2 onClick={isOn ? addOn : null}>클럽{showElement && <br />}포시즌</h2></li></Link>
+                <Link className='nav-link' to="/Env"><li><h2 onClick={isOn ? addOn : null}>입지{showElement && <br />}환경</h2></li></Link>
+                <Link className='nav-link' to="/Merchinfo"><li><h2 onClick={isOn ? addOn : null}>상품{showElement && <br />}안내</h2></li></Link>
+                <Link className='nav-link' to="/Service"><li><h2 onClick={isOn ? addOn : null}>특화{showElement && <br />}서비스</h2></li></Link>
+                <Link className='nav-link' to="/Club"><li><h2 onClick={isOn ? addOn : null}>클럽{showElement && <br />}포시즌</h2></li></Link>
                 <li id='call'>
                   <h2>
                     <a href="tel:1600-6297">
