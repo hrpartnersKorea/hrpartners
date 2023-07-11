@@ -1,1 +1,0 @@
-# hrpartnersKorea.github.io
